@@ -13,8 +13,8 @@
 |  9 |       Qwen3-Omni | 2025 | ASR, MT/ST,                   TTS, Vision         | 19 |    Transformer | 12.5 Hz |        MLP |      Prepending | 12.5 Hz |      Qwen3-30B |        30B | 40m |  40m |
 | 10 |          Voxtral | 2025 | ASR, MT/ST,                   TTS                 | 13 |      WhisperV3 |   50 Hz |        MLP |      Prepending | 12.5 Hz | Mistral 3B/24B | 4.7B/24.3B | 40m |  40m |
 | 11 |         MGM-Omni | 2025 | ASR,                          TTS, Vision         |  2 | Dual WhisperV3 |   50 Hz |        MLP |      Prepending |   50 Hz |     Qwen2.5-7B |       8.5B |  NA |  60m |
-| 12 |  Phi4-Multimodal | 2025 | ASR, MT/ST, QA/SQA, SUM/SSUM,      Vision         |  8 |      Conformer | 12.5 Hz |        MLP |      Prepending | 12.5 Hz |   Phi4-Mini-3B |       3.8B | 30m | --168m-- |
-| 13 |          FastSLM | 2026 | ASR, MT/ST, QA/SQA, SUM/SSUM                      |  2 |      WhisperV3 |   50 Hz | HFQ-Former |      Prepending | 1.67 Hz |       Qwen3-4B |       4.7B | 15m | --480m-- |
+| 12 |  Phi4-Multimodal | 2025 | ASR, MT/ST, QA/SQA, SUM/SSUM,      Vision         |  8 |      Conformer | 12.5 Hz |        MLP |      Prepending | 12.5 Hz |   Phi4-Mini-3B |       3.8B | 30m | ~~168m~~ |
+| 13 |          FastSLM | 2026 | ASR, MT/ST, QA/SQA, SUM/SSUM                      |  2 |      WhisperV3 |   50 Hz | HFQ-Former |      Prepending | 1.67 Hz |       Qwen3-4B |       4.7B | 15m | ~~480m~~ |
 
 # References
 
