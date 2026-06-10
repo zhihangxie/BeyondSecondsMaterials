@@ -1,4 +1,4 @@
-# Open-Licensed Corpora and Benchmarks
+# Corpora and Benchmarks
 
 | Index | Dataset | Year | Language | Train | Test | Total Duration | Average Duration | Maximum Duration | Consistent Stage | Tasks | License |
 |:-----:|---------|:----:|:--------:|:-----:|:----:|---------------:|-----------------:|-----------------:|:----------------:|------:|--------:|
@@ -42,6 +42,26 @@
 | 36 | LSS               | 2025 |  EN | ✗ | ✓ |       1h |   5m |  37m |  ✗ | ASR,                               Vision         |              NA |
 | 37 | Earnings-22       | 2022 |  EN | ✗ | ✓ |     119h |  57m | 123m |  ✗ | ASR                                               |   Research Only |
 | 38 | ChronosAudio      | 2026 |  EN | ✗ | ✓ |     237h |   5m |   NA | NA | ASR, MT/ST, QA/SQA                                |              NA |
+
+
+# Findings
+
+- **Duration variability**
+
+  Duration distributions within a corpus can be highly variable, and agreement between average-duration and maximum-duration criteria is limited.
+
+- **Data availability**
+
+  Data availability remains a practical challenge, as several corpora are no longer obtainable due to missing files, platform migration, or evolving licensing terms.
+
+- **Artificial concatenation**
+
+  Artificial concatenation is sometimes adopted to construct long-form speech, but it risks biasing evaluation toward robustness to synthetic artifacts rather than genuine long-context modeling.
+
+- **Limited diversity**
+
+  Limited diversity remains a key issue in long-form evaluation, with broader coverage still needed for multilingual long-form speech and tasks beyond recognition.
+
 
 # References
 

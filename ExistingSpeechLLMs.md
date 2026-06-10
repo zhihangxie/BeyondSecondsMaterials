@@ -16,6 +16,38 @@
 | 12 |  Phi4-Multimodal | 2025 | ASR, MT/ST, QA/SQA, SUM/SSUM,      Vision         |  8 |      Conformer | 12.5 Hz |        MLP |      Prepending | 12.5 Hz |   Phi4-Mini-3B |       3.8B | 30m | ~~168m~~ |
 | 13 |          FastSLM | 2026 | ASR, MT/ST, QA/SQA, SUM/SSUM                      |  2 |      WhisperV3 |   50 Hz | HFQ-Former |      Prepending | 1.67 Hz |       Qwen3-4B |       4.7B | 15m | ~~480m~~ |
 
+
+# Findings
+
+- **Language and task coverage**
+
+  Existing long-form SpeechLLMs remain largely English-centered, although recent systems extend to multilingual settings and broader tasks such as ST, SQA, SSUM, TTS, and multimodal reasoning.
+
+- **Speech encoders**
+
+  Many systems inherit Whisper-style encoders trained on fixed 30-second windows, while newer models train encoders with stronger temporal reduction or more efficient long-sequence attention.
+
+- **Modality adapters**
+
+  Adapter design determines how speech representations are compressed and fused into the LLM input space, mediating the trade-off between information retention and decoder-side computational cost.
+
+- **LLM decoders**
+
+  Decoder self-attention and KV-cache growth become major bottlenecks as input duration increases, and long-form performance depends on effective context use rather than supported context length alone.
+
+- **Model compression**
+
+  Memory and computation grow with both parameter count and sequence length, making compression, batching strategies, and hardware capacity important for long-form SpeechLLM training and deployment.
+
+- **Training strategies**
+
+  Most systems follow multi-stage pipelines involving representation alignment, supervised finetuning, PEFT methods such as LoRA, and long-form extension on longer recordings.
+
+- **Evaluation protocols**
+
+  Current evaluations emphasize maximum supported duration and task accuracy, but often lack standardized stress tests that analyze effective context use over progressively longer recordings.
+
+
 # References
 
 | Index | Short Title | Year | Author | Title |
