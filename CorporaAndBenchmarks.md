@@ -1,7 +1,7 @@
 # Corpora and Benchmarks
 
-| Index | Dataset | Year | Language | Train | Test | Total Duration | Average Duration | Average Duration Level | Maximum Duration Level | Maximum Duration | Consistent Level | Tasks | License |
-|:-----:|---------|:----:|:--------:|:-----:|:----:|---------------:|-----------------:|:----------------------:|-----------------------:|:----------------:|:----------------:|------:|--------:|
+| Index | Dataset | Year | Language | Train | Test | Total Duration | Average Duration | Average Duration Level | Maximum Duration | Maximum Duration Level | Consistent Level | Tasks | License |
+|:-----:|---------|:----:|:--------:|:-----:|:----:|---------------:|-----------------:|:----------------------:|-----------------:|:----------------------:|:----------------:|------:|--------:|
 |  1 | LibriSpeechLong   | 2025 |  EN | ✓ | ✓ |      51h |   3m |   Segment |   4m |   Segment |  ✓ |                               TTS                 |       CC-BY-4.0 |
 |  2 | Spoken-SQuAD      | 2018 |  EN | ✓ | ✓ |      95h |   1m |   Segment |   6m |   Segment |  ✓ | ASR, MT/ST, QA/SQA                                |    CC-BY-SA-4.0 |
 |  3 | How2              | 2018 |  EN | ✓ | ✓ |   2,000h |   2m |   Segment |  10m |   Segment |  ✓ | ASR,                               Vision         |    CC-BY-SA-4.0 |
@@ -44,7 +44,7 @@
 | 38 | ChronosAudio      | 2026 |  EN | ✗ | ✓ |     237h |   5m |   Segment |   NA |        NA | NA | ASR, MT/ST, QA/SQA                                |              NA |
 
 
-# Four-level Duration-based Framework
+# Duration-based Framework
 
 - **Segment-level Recordings (1-10 min)**
 
