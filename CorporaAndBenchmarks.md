@@ -29,20 +29,21 @@
 | 25 | LongSpeech        | 2026 | 16+ | ✓ | ✓ |  16,666h |  10m |   Segment |   NA |        NA | NA | ASR, MT/ST, QA/SQA, SUM/SSUM                      |              NA |
 | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | 26 | MOSEL             | 2024 |  24 | ✓ | ✗ | 950,000h |   5m |   Segment | 120m |   Session |  ✗ | ASR, MT/ST                                        |      Apache-2.0 |
-| 27 | YoutubeCommons    | 2024 |   6 | ✓ | ✗ | 440,000h |   NA |        NA |  60m |   Session | NA | ASR,                               Vision         |       CC-BY-4.0 |
+| 27 | Bengali           | 2026 |  BN | ✓ | ✗ |     310h |  49m |   Session | 350m |     Event |  ✗ | ASR                                               |       CC-BY 4.0 |
+| 28 | YoutubeCommons    | 2024 |   6 | ✓ | ✗ | 440,000h |   NA |        NA |  60m |   Session | NA | ASR,                               Vision         |       CC-BY-4.0 |
 | — | — | — | — | — | — | — | — | — | — | — |— | — |
-| 28 | ECShortClips      | 2023 |   2 | ✗ | ✓ |       1h |   2m |   Segment |   6m |   Segment |  ✓ | ASR, MT/ST,                        Vision         |    CC-BY-NC-4.0 |
-| 29 | AudioMarathon     | 2026 |  EN | ✗ | ✓ |     392h |   4m |   Segment |   5m |   Segment |  ✓ | ASR,        QA/SQA,                        Others |    CC-BY-NC-4.0 |
-| 30 | MCIF              | 2025 |   4 | ✗ | ✓ |      10h |   6m |   Segment |   7m |   Segment |  ✓ | ASR, MT/ST, QA/SQA, SUM/SSUM, TTS, Vision         |       CC-BY-4.0 |
-| 31 | ACL6060           | 2023 |  10 | ✗ | ✓ |       2h |  12m | Discourse |  14m | Discourse |  ✓ | ASR, MT/ST                                        |       CC-BY-4.0 |
-| 32 | CORAAL            | 2021 |  EN | ✗ | ✓ |     161h |  36m |   Session |  82m |   Session |  ✓ | ASR                                               | CC-BY-NC-SA-4.0 |
-| 33 | Earnings-21       | 2021 |  EN | ✗ | ✓ |      39h |  54m |   Session |  94m |   Session |  ✓ | ASR                                               |   Research Only |
-| 34 | ICSI              | 2003 |  EN | ✗ | ✓ |      72h |  89m |   Session | 103m |   Session |  ✓ | ASR                                               |       CC-BY-4.0 |
-| 35 | BLAB              | 2026 |  EN | ✗ | ✓ |     833h |  51m |   Session | 120m |   Session |  ✓ | ASR,                                       Others |       CC-BY-4.0 |
-| 36 | EuroParlInterview | 2023 |  EN | ✗ | ✓ |       1h |   6m |   Segment |  15m | Discourse |  ✗ | ASR, MT/ST,                        Vision         |    CC-BY-NC-4.0 |
-| 37 | LSS               | 2025 |  EN | ✗ | ✓ |       1h |   5m |   Segment |  37m |   Session |  ✗ | ASR,                               Vision         |              NA |
-| 38 | Earnings-22       | 2022 |  EN | ✗ | ✓ |     119h |  57m |   Session | 123m |     Event |  ✗ | ASR                                               |   Research Only |
-| 39 | ChronosAudio      | 2026 |  EN | ✗ | ✓ |     237h |   5m |   Segment |   NA |        NA | NA | ASR, MT/ST, QA/SQA                                |              NA |
+| 29 | ECShortClips      | 2023 |   2 | ✗ | ✓ |       1h |   2m |   Segment |   6m |   Segment |  ✓ | ASR, MT/ST,                        Vision         |    CC-BY-NC-4.0 |
+| 30 | AudioMarathon     | 2026 |  EN | ✗ | ✓ |     392h |   4m |   Segment |   5m |   Segment |  ✓ | ASR,        QA/SQA,                        Others |    CC-BY-NC-4.0 |
+| 31 | MCIF              | 2025 |   4 | ✗ | ✓ |      10h |   6m |   Segment |   7m |   Segment |  ✓ | ASR, MT/ST, QA/SQA, SUM/SSUM, TTS, Vision         |       CC-BY-4.0 |
+| 32 | ACL6060           | 2023 |  10 | ✗ | ✓ |       2h |  12m | Discourse |  14m | Discourse |  ✓ | ASR, MT/ST                                        |       CC-BY-4.0 |
+| 33 | CORAAL            | 2021 |  EN | ✗ | ✓ |     161h |  36m |   Session |  82m |   Session |  ✓ | ASR                                               | CC-BY-NC-SA-4.0 |
+| 34 | Earnings-21       | 2021 |  EN | ✗ | ✓ |      39h |  54m |   Session |  94m |   Session |  ✓ | ASR                                               |   Research Only |
+| 35 | ICSI              | 2003 |  EN | ✗ | ✓ |      72h |  89m |   Session | 103m |   Session |  ✓ | ASR                                               |       CC-BY-4.0 |
+| 36 | BLAB              | 2026 |  EN | ✗ | ✓ |     833h |  51m |   Session | 120m |   Session |  ✓ | ASR,                                       Others |       CC-BY-4.0 |
+| 37 | EuroParlInterview | 2023 |  EN | ✗ | ✓ |       1h |   6m |   Segment |  15m | Discourse |  ✗ | ASR, MT/ST,                        Vision         |    CC-BY-NC-4.0 |
+| 38 | LSS               | 2025 |  EN | ✗ | ✓ |       1h |   5m |   Segment |  37m |   Session |  ✗ | ASR,                               Vision         |              NA |
+| 39 | Earnings-22       | 2022 |  EN | ✗ | ✓ |     119h |  57m |   Session | 123m |     Event |  ✗ | ASR                                               |   Research Only |
+| 40 | ChronosAudio      | 2026 |  EN | ✗ | ✓ |     237h |   5m |   Segment |   NA |        NA | NA | ASR, MT/ST, QA/SQA                                |              NA |
 
 
 # Duration-based Framework
@@ -114,17 +115,18 @@ Limited diversity remains a key issue in long-form evaluation, with broader cove
 | 25 |        LongSpeech | 2026 |                    Yang, Fei and others | LongSpeech: A Scalable Benchmark for Transcription, Translation and Understanding in Long Speech |
 | — | — | — | — | — |
 | 26 |             MOSEL | 2024 |                 Gaido, Marco and others | MOSEL: 950,000 Hours of Speech Data for Open-Source Speech Foundation Model Training on EU Languages |
-| 27 |    YoutubeCommons | 2024 |                                      NA | PleIAs |
+| 27 | Bengali           | 2026 |                       K M Intisar Uddin | Bengali Long-Form ASR Dataset |
+| 28 |    YoutubeCommons | 2024 |                                      NA | PleIAs |
 | — | — | — | — | — |
-| 28 |      ECShortClips | 2023 |                   Papi, Sara and others | Direct Speech Translation for Automatic Subtitling |
-| 29 |     AudioMarathon | 2026 |                    Peize, He and others | AudioMarathon: A Comprehensive Benchmark for Long-context Audio Understanding and Efficiency in Audio LLMS |
-| 30 |              MCIF | 2026 |                   Papi, Sara and others | MCIF: Multimodal Crosslingual Instruction-Following Benchmark from Scientific Talks |
-| 31 |           ACL6060 | 2023 |           Salesky, Elizabeth and others | Evaluating Multilingual Speech Translation under Realistic Conditions with Resegmentation and Terminology |
-| 32 |            CORAAL | 2021 |              Gunter, Kaylynn and others | Contextualizing /s/ retraction: Sibilant variation and change in Washington D.C. African American Language |
-| 33 |       Earnings-21 | 2021 |              Rio, Miguel Del and others | Earnings-21: A Practical Benchmark for ASR in the Wild |
-| 34 |              ICSI | 2003 |                    Janin, A. and others | The ICSI Meeting Corpus |
-| 35 |              BLAB | 2026 |            Ahia, Orevaoghene and others | BLAB: Brutally Long Audio Bench |
-| 36 | EuroParlInterview | 2023 |                   Papi, Sara and others | Direct Speech Translation for Automatic Subtitling |
-| 37 |               LSS | 2025 |                  Foley, Sean and others | A Long-Form Single-Speaker Real-Time MRI Speech Dataset and Benchmark |
-| 38 |       Earnings-22 | 2022 |              Rio, Miguel Del and others | Earnings-22: A Practical Benchmark for Accents in the Wild |
-| 39 |      ChronosAudio | 2026 |                  Luo, Kaiwen and others | ChronosAudio: A Comprehensive Long-Audio Benchmark for Evaluating Audio-Large Language Models |
+| 29 |      ECShortClips | 2023 |                   Papi, Sara and others | Direct Speech Translation for Automatic Subtitling |
+| 30 |     AudioMarathon | 2026 |                    Peize, He and others | AudioMarathon: A Comprehensive Benchmark for Long-context Audio Understanding and Efficiency in Audio LLMS |
+| 31 |              MCIF | 2026 |                   Papi, Sara and others | MCIF: Multimodal Crosslingual Instruction-Following Benchmark from Scientific Talks |
+| 32 |           ACL6060 | 2023 |           Salesky, Elizabeth and others | Evaluating Multilingual Speech Translation under Realistic Conditions with Resegmentation and Terminology |
+| 33 |            CORAAL | 2021 |              Gunter, Kaylynn and others | Contextualizing /s/ retraction: Sibilant variation and change in Washington D.C. African American Language |
+| 34 |       Earnings-21 | 2021 |              Rio, Miguel Del and others | Earnings-21: A Practical Benchmark for ASR in the Wild |
+| 35 |              ICSI | 2003 |                    Janin, A. and others | The ICSI Meeting Corpus |
+| 36 |              BLAB | 2026 |            Ahia, Orevaoghene and others | BLAB: Brutally Long Audio Bench |
+| 37 | EuroParlInterview | 2023 |                   Papi, Sara and others | Direct Speech Translation for Automatic Subtitling |
+| 38 |               LSS | 2025 |                  Foley, Sean and others | A Long-Form Single-Speaker Real-Time MRI Speech Dataset and Benchmark |
+| 39 |       Earnings-22 | 2022 |              Rio, Miguel Del and others | Earnings-22: A Practical Benchmark for Accents in the Wild |
+| 40 |      ChronosAudio | 2026 |                  Luo, Kaiwen and others | ChronosAudio: A Comprehensive Long-Audio Benchmark for Evaluating Audio-Large Language Models |
