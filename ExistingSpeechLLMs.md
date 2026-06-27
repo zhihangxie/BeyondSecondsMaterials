@@ -2,24 +2,25 @@
 
 | Index | Model | Year | Task | Languages | Speech Encoder | Speech Frame Rate | Modality Adapter | Modality Fusion | Output Frame Rate | LLM Decoder | SpeechLLM Size | Training Duration | Testing Duration |
 |-------|-------|:----:|:----:|:---------:|:--------------:|:-----------------:|:----------------:|:---------------:|:-----------------:|:-----------:|:--------------:|:-----------------:|:----------------:|
-|  1 | SpeechLLM-XL     | 2025 | ASR                                               |  EN |       Enformer |   25 Hz |        MLP |      Prepending |   25 Hz |          Llama2 |       0.2B | 30s |       5m |
-|  2 | AudioMarathon    | 2026 | ASR,        QA/SQA,                        Others |  EN |       Multiple |      NA |   Multiple |              NA |      NA |        Multiple |         NA |  5m |       5m |
-|  3 | SpeechLLM-XL     | 2026 | ASR,        QA/SQA,                        Others |  EN |  Whisper-small |   50 Hz |       Dual |      Prepending | 12.5 Hz |      Qwen2.5-7B |       7.3B |  5m |       5m |
-|  4 | Audio Flamingo-2 | 2025 | ASR,        QA/SQA,                        Others |  EN |           CLAP |  100 Hz |        MLP | Cross-Attention |  100 Hz |      Qwen2.5-3B |         3B |  5m |       5m |
-|  5 | Audio Flamingo-3 | 2025 | ASR,        QA/SQA,           TTS,         Others |  EN |      WhisperV3 |   50 Hz |    Pooling | Cross-Attention |   25 Hz |      Qwen2.5-7B |       7.8B | 10m |      10m |
-|  6 | VLAT-SALMONN     | 2025 |             QA/SQA                                |  EN |      WhisperV2 |   50 Hz |  WQ-Former |      Prepending |    3 Hz |       Vicuna-7B |       8.5B |  2m |      10m |
-|  7 | VLAT-Qwen2-Audio | 2025 |             QA/SQA, SUM/SSUM, TTS, Vision, Others |  EN |      WhisperV3 |   50 Hz |    Pooling |      Prepending |   25 Hz |         Qwen-7B |       7.8B |  2m |      10m |
-|  8 | KIT + CMU        | 2026 | ASR, MT/ST, QA/SQA, SUM/SSUM,              Others |   4 |      WhisperV3 |   50 Hz |    Pooling |      Prepending |   50 Hz |      Qwen2.5-7B |       7.8B | 15m |      15m |
-|  9 | FBK              | 2026 | ASR, MT/ST, QA/SQA, SUM/SSUM,              Others |   4 |    SeamlessM4T |   50 Hz |        MLP |      Prepending |   50 Hz |        Qwen3-4B |       4.7B | 25m |      15m |
-| 10 | Qwen2.5-Omni     | 2025 | ASR, MT/ST,                   TTS, Vision         |  8+ |      WhisperV3 |   50 Hz |    Pooling |      Prepending |   25 Hz |      Qwen2.5-7B |       7.8B | 20m |      20m |
-| 11 | KIT              | 2025 | ASR, MT/ST, QA/SQA, SUM/SSUM                      |   4 |    SeamlessM4T |   50 Hz |  WQ-Former |      Prepending |   50 Hz |     Llama3.1-8B |         9B | 23m |      27m |
-| 12 | FastLongSpeech   | 2025 | ASR,        QA/SQA                                |  8+ |      WhisperV3 |   50 Hz |  Iterative |      Prepending | Dynamic |         Qwen-7B |         8B | 15m |      40m |
-| 13 | Qwen3-Omni       | 2025 | ASR, MT/ST,                   TTS, Vision         |  19 |    Transformer | 12.5 Hz |        MLP |      Prepending | 12.5 Hz |       Qwen3-30B |        30B | 40m |      40m |
-| 14 | Voxtral          | 2025 | ASR, MT/ST,                   TTS                 |  13 |      WhisperV3 |   50 Hz |        MLP |      Prepending | 12.5 Hz |  Mistral 3B/24B | 4.7B/24.3B | 40m |      40m |
-| 15 | VibeVoice        | 2026 | ASR,                          TTS                 | 50+ |            VAE |  7.5 Hz |         NA |              NA |      NA | Qwen2.5-1.5B/7B |    2.6B/8B |  NA |      60m |
-| 16 | MGM-Omni         | 2025 | ASR,                          TTS, Vision         |   2 | Dual WhisperV3 |   50 Hz |        MLP |      Prepending |   50 Hz |      Qwen2.5-7B |       8.5B |  NA |      60m |
-| 17 | Phi4-Multimodal  | 2025 | ASR, MT/ST, QA/SQA, SUM/SSUM,      Vision         |   8 |      Conformer | 12.5 Hz |        MLP |      Prepending | 12.5 Hz |    Phi4-Mini-3B |       3.8B | 30m | ~~168m~~ |
-| 18 | FastSLM          | 2026 | ASR, MT/ST, QA/SQA, SUM/SSUM                      |   2 |      WhisperV3 |   50 Hz | HFQ-Former |      Prepending | 1.67 Hz |        Qwen3-4B |       4.7B | 15m | ~~480m~~ |
+|  1 | SpeechLLM-XL         | 2025 | ASR                                               |  EN |       Enformer |   25 Hz |        MLP |      Prepending |   25 Hz |          Llama2 |       0.2B | 30s |       5m |
+|  2 | AudioMarathon        | 2026 | ASR,        QA/SQA,                        Others |  EN |       Multiple |      NA |   Multiple |              NA |      NA |        Multiple |         NA |  5m |       5m |
+|  3 | SpeechLLM-XL         | 2026 | ASR,        QA/SQA,                        Others |  EN |  Whisper-small |   50 Hz |       Dual |      Prepending | 12.5 Hz |      Qwen2.5-7B |       7.3B |  5m |       5m |
+|  4 | Audio Flamingo-2     | 2025 | ASR,        QA/SQA,                        Others |  EN |           CLAP |  100 Hz |        MLP | Cross-Attention |  100 Hz |      Qwen2.5-3B |         3B |  5m |       5m |
+|  5 | Audio Flamingo-3     | 2025 | ASR,        QA/SQA,           TTS,         Others |  EN |      WhisperV3 |   50 Hz |    Pooling | Cross-Attention |   25 Hz |      Qwen2.5-7B |       7.8B | 10m |      10m |
+|  6 | VLAT-Qwen2-Audio     | 2025 |             QA/SQA, SUM/SSUM, TTS, Vision, Others |  EN |      WhisperV3 |   50 Hz |    Pooling |      Prepending |   25 Hz |         Qwen-7B |       7.8B |  2m |      10m |
+|  7 | KIT + CMU            | 2026 | ASR, MT/ST, QA/SQA, SUM/SSUM,              Others |   4 |      WhisperV3 |   50 Hz |    Pooling |      Prepending |   50 Hz |      Qwen2.5-7B |       7.8B | 15m |      15m |
+|  8 | FBK                  | 2026 | ASR, MT/ST, QA/SQA, SUM/SSUM,              Others |   4 |    SeamlessM4T |   50 Hz |        MLP |      Prepending |   50 Hz |        Qwen3-4B |       4.7B | 25m |      15m |
+|  9 | Qwen2.5-Omni         | 2025 | ASR, MT/ST,                   TTS, Vision         |  8+ |      WhisperV3 |   50 Hz |    Pooling |      Prepending |   25 Hz |      Qwen2.5-7B |       7.8B | 20m |      20m |
+| 10 | KIT                  | 2025 | ASR, MT/ST, QA/SQA, SUM/SSUM                      |   4 |    SeamlessM4T |   50 Hz |  WQ-Former |      Prepending |   50 Hz |     Llama3.1-8B |         9B | 23m |      27m |
+| 11 | FastLongSpeech       | 2025 | ASR,        QA/SQA                                |  8+ |      WhisperV3 |   50 Hz |  Iterative |      Prepending | Dynamic |         Qwen-7B |         8B | 15m |      40m |
+| 12 | Qwen3-Omni           | 2025 | ASR, MT/ST,                   TTS, Vision         |  19 |    Transformer | 12.5 Hz |        MLP |      Prepending | 12.5 Hz |       Qwen3-30B |        30B | 40m |      40m |
+| 13 | AudioKV-Qwen2.5-Omni | 2026 | ASR, MT/ST, QA/SQA                                |  5+ |      WhisperV3 |   50 Hz |    Pooling |      Prepending |   25 Hz |      Qwen2.5-7B |       7.8B | 20m |      20m |
+| 14 | Voxtral              | 2025 | ASR, MT/ST,                   TTS                 |  13 |      WhisperV3 |   50 Hz |        MLP |      Prepending | 12.5 Hz |  Mistral 3B/24B | 4.7B/24.3B | 40m |      40m |
+| 15 | VibeVoice            | 2026 | ASR,                          TTS                 | 50+ |            VAE |  7.5 Hz |         NA |              NA |      NA | Qwen2.5-1.5B/7B |    3.5B/9B |  NA |      60m |
+| 16 | MURMUR               | 2026 | ASR                                               |  EN |            VAE |  7.5 Hz |         NA |              NA |      NA |      Qwen2.5-7B |         9B |  NA |      60m |
+| 17 | MGM-Omni             | 2025 | ASR,                          TTS, Vision         |   2 | Dual WhisperV3 |   50 Hz |        MLP |      Prepending |   50 Hz |      Qwen2.5-7B |       8.5B |  NA |      60m |
+| 18 | Phi4-Multimodal      | 2025 | ASR, MT/ST, QA/SQA, SUM/SSUM,      Vision         |   8 |      Conformer | 12.5 Hz |        MLP |      Prepending | 12.5 Hz |    Phi4-Mini-3B |       3.8B | 30m | ~~168m~~ |
+| 19 | FastSLM              | 2026 | ASR, MT/ST, QA/SQA, SUM/SSUM                      |   2 |      WhisperV3 |   50 Hz | HFQ-Former |      Prepending | 1.67 Hz |        Qwen3-4B |       4.7B | 15m | ~~480m~~ |
 
 # Findings
 
@@ -71,6 +72,7 @@
 | 13 | Qwen3-Omni       | 2025 |                 Xu, Jin and others | Qwen3-Omni Technical Report |
 | 14 | Voxtral          | 2025 |          Liu, Alexander and others | Voxtral |
 | 15 | VibeVoice        | 2026 |          Zhiliang, Peng and others | VibeVoice Technical Report |
-| 16 | MGM-Omni         | 2025 |          Wang, Chengyao and others | MGM-Omni: Scaling Omni LLMs to Personalized Long-Horizon Speech |
-| 17 | Phi4-Multimodal  | 2025 | Abouelenin, Abdelrahman and others | Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs |
-| 18 | FastSLM          | 2026 |            Lee, Junseok and others | FastSLM: Hierarchical Frame Q-Former for Effective Speech Modality Adaptation |
+| 16 | MURMUR           | 2026 |             Wei-Tzu Lee and others | MURMUR: An Efficient Inference System for Long-Form ASR |
+| 17 | MGM-Omni         | 2025 |          Wang, Chengyao and others | MGM-Omni: Scaling Omni LLMs to Personalized Long-Horizon Speech |
+| 18 | Phi4-Multimodal  | 2025 | Abouelenin, Abdelrahman and others | Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs |
+| 19 | FastSLM          | 2026 |            Lee, Junseok and others | FastSLM: Hierarchical Frame Q-Former for Effective Speech Modality Adaptation |
