@@ -58,23 +58,23 @@
 
 | Index | Short Title | Year | Author | Title |
 |-------|-------------|-------|--------|------|
-|  1 | SpeechLLM-XL     | 2025 |            Jia, Junteng and others | Efficient Streaming LLM for Speech Recognition |
-|  2 | AudioMarathon    | 2026 |               Peize, He and others | AudioMarathon: A Comprehensive Benchmark for Long-context Audio Understanding and Efficiency in Audio LLMS |
-|  3 | SpeechLLM-XL     | 2026 |             Haoqin, Sun and others | Speech-XL: Towards Long-Form Speech Understanding in Large Speech  Language Models |
-|  4 | Audio Flamingo-2 | 2025 |           Ghosh, Sreyan and others | Audio Flamingo 2: An Audio-Language Model with Long-Audio Understanding and Expert Reasoning Abilities |
-|  5 | LLM-FA           | 2026 |            Bingshen, Mu and others | LLM-ForcedAligner: A Non-Autoregressive and Accurate LLM-Based  Forced Aligner for Multilingual and Long-Form Speech |
-|  6 | Audio Flamingo-3 | 2025 |            Goel, Arushi and others | Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models |
-|  7 | VLAT-SALMONN     | 2025 |     Chaichana, Yuatyong and others | Extending Audio Context for Long-Form Understanding in Large Audio-Language Models |
-|  8 | VLAT-Qwen2-Audio | 2025 |     Chaichana, Yuatyong and others | Extending Audio Context for Long-Form Understanding in Large Audio-Language Models |
-|  9 | KIT + CMU        | 2026 |        Ugan, Enes Yavuz and others | Multilingual Long-form Speech Instruction Following: KIT's Submission to IWSLT 2026 |
-| 10 | FBK              | 2026 |            Xie, Zhihang and others | FBK's Long-form SpeechLLMs to IWSLT 2026 Instruction Following |
-| 11 | Qwen2.5-Omni     | 2025 |                 Xu, Jin and others | Qwen2.5-Omni Technical Report |
-| 12 | KIT              | 2025 |             Koneru, Sai and others | KIT's Offline Speech Translation and Instruction Following Submission for IWSLT 2025 |
-| 13 | FastLongSpeech   | 2025 |            Guo, Shoutao and others | FastLongSpeech: Enhancing Large Speech-Language Models for Efficient Long-Speech Processing |
-| 14 | Qwen3-Omni       | 2025 |                 Xu, Jin and others | Qwen3-Omni Technical Report |
-| 15 | Voxtral          | 2025 |          Liu, Alexander and others | Voxtral |
-| 16 | VibeVoice        | 2026 |          Zhiliang, Peng and others | VibeVoice Technical Report |
-| 17 | MURMUR           | 2026 |             Wei-Tzu Lee and others | MURMUR: An Efficient Inference System for Long-Form ASR |
-| 18 | MGM-Omni         | 2025 |          Wang, Chengyao and others | MGM-Omni: Scaling Omni LLMs to Personalized Long-Horizon Speech |
-| 19 | Phi4-Multimodal  | 2025 | Abouelenin, Abdelrahman and others | Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs |
-| 20 | FastSLM          | 2026 |            Lee, Junseok and others | FastSLM: Hierarchical Frame Q-Former for Effective Speech Modality Adaptation |
+|  1 | SpeechLLM-XL         | 2025 |            Jia, Junteng and others | Efficient Streaming LLM for Speech Recognition |
+|  2 | AudioMarathon        | 2026 |               Peize, He and others | AudioMarathon: A Comprehensive Benchmark for Long-context Audio Understanding and Efficiency in Audio LLMS |
+|  3 | SpeechLLM-XL         | 2026 |             Haoqin, Sun and others | Speech-XL: Towards Long-Form Speech Understanding in Large Speech  Language Models |
+|  4 | Audio Flamingo-2     | 2025 |           Ghosh, Sreyan and others | Audio Flamingo 2: An Audio-Language Model with Long-Audio Understanding and Expert Reasoning Abilities |
+|  5 | LLM-FA               | 2026 |            Bingshen, Mu and others | LLM-ForcedAligner: A Non-Autoregressive and Accurate LLM-Based  Forced Aligner for Multilingual and Long-Form Speech |
+|  6 | Audio Flamingo-3     | 2025 |            Goel, Arushi and others | Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models |
+|  7 | VLAT-Qwen2-Audio     | 2025 |     Chaichana, Yuatyong and others | Extending Audio Context for Long-Form Understanding in Large Audio-Language Models |
+|  8 | KIT + CMU            | 2026 |        Ugan, Enes Yavuz and others | Multilingual Long-form Speech Instruction Following: KIT's Submission to IWSLT 2026 |
+|  9 | FBK                  | 2026 |            Xie, Zhihang and others | FBK's Long-form SpeechLLMs to IWSLT 2026 Instruction Following |
+| 10 | Qwen2.5-Omni         | 2025 |                 Xu, Jin and others | Qwen2.5-Omni Technical Report |
+| 11 | KIT                  | 2025 |             Koneru, Sai and others | KIT's Offline Speech Translation and Instruction Following Submission for IWSLT 2025 |
+| 12 | FastLongSpeech       | 2025 |            Guo, Shoutao and others | FastLongSpeech: Enhancing Large Speech-Language Models for Efficient Long-Speech Processing |
+| 13 | Qwen3-Omni           | 2025 |                 Xu, Jin and others | Qwen3-Omni Technical Report |
+| 14 | AudioKV-Qwen2.5-Omni | 2026 |            Yuxuan, Wang and others | AudioKV: KV Cache Eviction in Efficient Large Audio Language  Models |
+| 15 | Voxtral              | 2025 |          Liu, Alexander and others | Voxtral |
+| 16 | VibeVoice            | 2026 |          Zhiliang, Peng and others | VibeVoice Technical Report |
+| 17 | MURMUR               | 2026 |             Wei-Tzu Lee and others | MURMUR: An Efficient Inference System for Long-Form ASR |
+| 18 | MGM-Omni             | 2025 |          Wang, Chengyao and others | MGM-Omni: Scaling Omni LLMs to Personalized Long-Horizon Speech |
+| 19 | Phi4-Multimodal      | 2025 | Abouelenin, Abdelrahman and others | Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs |
+| 20 | FastSLM              | 2026 |            Lee, Junseok and others | FastSLM: Hierarchical Frame Q-Former for Effective Speech Modality Adaptation |
