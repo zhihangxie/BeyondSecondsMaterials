@@ -23,7 +23,7 @@
 | 19 | MGM-Omni             | 2025 | ASR,                          TTS, Vision         |   2 | Dual WhisperV3 |   50 Hz |        MLP |      Prepending |   50 Hz |      Qwen2.5-7B |       8.5B |  NA |      60m |
 | 20 | Phi4-Multimodal      | 2025 | ASR, MT/ST, QA/SQA, SUM/SSUM,      Vision         |   8 |      Conformer | 12.5 Hz |        MLP |      Prepending | 12.5 Hz |    Phi4-Mini-3B |       3.8B | 30m | ~~168m~~ |
 | 21 | FastSLM              | 2026 | ASR, MT/ST, QA/SQA, SUM/SSUM                      |   2 |      WhisperV3 |   50 Hz | HFQ-Former |      Prepending | 1.67 Hz |        Qwen3-4B |       4.7B | 15m | ~~480m~~ |
-| 22 | Jedis-LLM            | 2025 | ASR                                               |  EN |      Conformer | 12.5 Hz |        MLP |      Prepending | 12.5 Hz |    Phi4-Mini-3B |       3.8B | 90m |      90m |
+| 22 | Jedis-LLM            | 2026 | ASR                                               |  EN |      Conformer | 12.5 Hz |        MLP |      Prepending | 12.5 Hz |    Phi4-Mini-3B |       3.8B | 90m |      90m |
 
 # Findings
 
@@ -81,4 +81,4 @@
 | 19 | MGM-Omni             | 2025 |          Wang, Chengyao and others | MGM-Omni: Scaling Omni LLMs to Personalized Long-Horizon Speech |
 | 20 | Phi4-Multimodal      | 2025 | Abouelenin, Abdelrahman and others | Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs |
 | 21 | FastSLM              | 2026 |            Lee, Junseok and others | FastSLM: Hierarchical Frame Q-Former for Effective Speech Modality Adaptation |
-| 22 | Jedis-LLM            | 2025 |              Mohan, Shi and others | Train Short, Infer Long: Speech-LLM Enables Zero-Shot Streamable Joint ASR and Diarization on Long Audio |
+| 22 | Jedis-LLM            | 2026 |              Mohan, Shi and others | Train Short, Infer Long: Speech-LLM Enables Zero-Shot Streamable Joint ASR and Diarization on Long Audio |
