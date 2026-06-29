@@ -13,38 +13,40 @@
 |  9 | NUTSHELL          | 2025 |  EN | ✓ | ✓ |   1,172h |  12m | Discourse |  23m | Discourse |  ✓ | ASR, MT/ST                                        |       CC-BY-4.0 |
 | 10 | TED-LIUM-3        | 2018 |  EN | ✓ | ✓ |     452h |  12m | Discourse |  26m | Discourse |  ✓ | ASR                                               | CC-BY-NC-ND-3.0 |
 | 11 | AISHELL-4         | 2021 |  ZH | ✓ | ✓ |     120h |  15m | Discourse |  30m | Discourse |  ✓ | ASR,                               Vision         |      Apache-2.0 |
-| 12 | AMI               | 2006 |  EN | ✓ | ✓ |     100h |  32m |   Session |  90m |   Session |  ✓ | ASR,                               Vision         |       CC-BY-4.0 |
-| 13 | MeetingBank       | 2023 |  EN | ✓ | ✓ |   3,579h | 156m |     Event | 480m |     Event |  ✓ | ASR                                               | CC-BY-NC-SA-4.0 |
-| 14 | EuroParlST        | 2020 |   9 | ✓ | ✓ |     513h |   5m |   Segment |  15m | Discourse |  ✗ | ASR, MT/ST                                        |             CC0 |
-| 15 | mTEDx             | 2021 |   8 | ✓ | ✓ |   1,183h |   9m |   Segment |  18m | Discourse |  ✗ | ASR, MT/ST                                        | CC-BY-NC-ND-4.0 |
-| 16 | SLUE-TED          | 2023 |  EN | ✓ | ✓ |     829h |   8m |   Segment |  20m | Discourse |  ✗ | ASR                                               | CC-BY-NC-ND-4.0 |
-| 17 | VISTA             | 2025 |  EN | ✓ | ✓ |   2,100h |   7m |   Segment |  30m | Discourse |  ✗ | ASR,        QA/SQA, SUM/SSUM,      Vision         |             MIT |
-| 18 | YTSEG             | 2024 |  EN | ✓ | ✓ |   6,533h |  20m | Discourse |  70m |   Session |  ✗ | ASR,                SUM/SSUM,      Vision         | CC-BY-NC-SA-4.0 |
-| 19 | MMSUM             | 2023 |  EN | ✓ | ✓ |   1,200h |  15m | Discourse | 115m |   Session |  ✗ | ASR,                SUM/SSUM,      Vision         |     CC-BY-NC-SA |
-| 20 | VT-SSUM           | 2021 |  EN | ✓ | ✓ |   4,500h |  28m | Discourse | 120m |   Session |  ✗ | ASR,                SUM/SSUM,      Vision         | CC-BY-NC-ND-4.0 |
-| 21 | MLS               | 2020 |   8 | ✓ | ✓ |  50,834h |  30m | Discourse | 720m |     Event |  ✗ | ASR                                               |       CC-BY-4.0 |
-| 22 | YODAS             | 2024 | 140 | ✓ | ✓ | 560,000h |  30m | Discourse |  25h |     Event |  ✗ | ASR,                               Vision         |       CC-BY-3.0 |
-| 23 | Spotify Podcasts  | 2020 |  EN | ✓ | ✓ |  60,000h |  34m |        NA |   NA |        NA | NA | ASR,                SUM/SSUM                      |       CC-BY-4.0 |
-| 24 | StreamHover       | 2021 |  EN | ✓ | ✓ |     500h |   5m |        NA |   NA |        NA | NA | ASR,                SUM/SSUM,      Vision         |              NA |
-| 25 | Updated           | 2024 |  EN | ✓ | ✓ |   2,934h |   NA |        NA |  25m | Discourse | NA | ASR                                               |              NA |
-| 26 | LongSpeech        | 2026 | 16+ | ✓ | ✓ |  16,666h |  10m |   Segment |   NA |        NA | NA | ASR, MT/ST, QA/SQA, SUM/SSUM                      |              NA |
+| 12 | LAT-Chronicle     | 2026 |   2 | ✓ | ✓ |   1,200h |  30m | Discourse |  30m | Discourse |  ✓ |                                            Others |    CC-BY-NC-4.0 |
+| 13 | AMI               | 2006 |  EN | ✓ | ✓ |     100h |  32m |   Session |  90m |   Session |  ✓ | ASR,                               Vision         |       CC-BY-4.0 |
+| 14 | MeetingBank       | 2023 |  EN | ✓ | ✓ |   3,579h | 156m |     Event | 480m |     Event |  ✓ | ASR                                               | CC-BY-NC-SA-4.0 |
+| 15 | EuroParlST        | 2020 |   9 | ✓ | ✓ |     513h |   5m |   Segment |  15m | Discourse |  ✗ | ASR, MT/ST                                        |             CC0 |
+| 16 | mTEDx             | 2021 |   8 | ✓ | ✓ |   1,183h |   9m |   Segment |  18m | Discourse |  ✗ | ASR, MT/ST                                        | CC-BY-NC-ND-4.0 |
+| 17 | SLUE-TED          | 2023 |  EN | ✓ | ✓ |     829h |   8m |   Segment |  20m | Discourse |  ✗ | ASR                                               | CC-BY-NC-ND-4.0 |
+| 18 | VISTA             | 2025 |  EN | ✓ | ✓ |   2,100h |   7m |   Segment |  30m | Discourse |  ✗ | ASR,        QA/SQA, SUM/SSUM,      Vision         |             MIT |
+| 19 | YTSEG             | 2024 |  EN | ✓ | ✓ |   6,533h |  20m | Discourse |  70m |   Session |  ✗ | ASR,                SUM/SSUM,      Vision         | CC-BY-NC-SA-4.0 |
+| 20 | MMSUM             | 2023 |  EN | ✓ | ✓ |   1,200h |  15m | Discourse | 115m |   Session |  ✗ | ASR,                SUM/SSUM,      Vision         |     CC-BY-NC-SA |
+| 21 | VT-SSUM           | 2021 |  EN | ✓ | ✓ |   4,500h |  28m | Discourse | 120m |   Session |  ✗ | ASR,                SUM/SSUM,      Vision         | CC-BY-NC-ND-4.0 |
+| 22 | MLS               | 2020 |   8 | ✓ | ✓ |  50,834h |  30m | Discourse | 720m |     Event |  ✗ | ASR                                               |       CC-BY-4.0 |
+| 23 | YODAS             | 2024 | 140 | ✓ | ✓ | 560,000h |  30m | Discourse |  25h |     Event |  ✗ | ASR,                               Vision         |       CC-BY-3.0 |
+| 24 | Spotify Podcasts  | 2020 |  EN | ✓ | ✓ |  60,000h |  34m |        NA |   NA |        NA | NA | ASR,                SUM/SSUM                      |       CC-BY-4.0 |
+| 25 | StreamHover       | 2021 |  EN | ✓ | ✓ |     500h |   5m |        NA |   NA |        NA | NA | ASR,                SUM/SSUM,      Vision         |              NA |
+| 26 | Updated           | 2024 |  EN | ✓ | ✓ |   2,934h |   NA |        NA |  25m | Discourse | NA | ASR                                               |              NA |
+| 27 | LongSpeech        | 2026 | 16+ | ✓ | ✓ |  16,666h |  10m |   Segment |   NA |        NA | NA | ASR, MT/ST, QA/SQA, SUM/SSUM                      |              NA |
 | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| 27 | MOSEL             | 2024 |  24 | ✓ | ✗ | 950,000h |   5m |   Segment | 120m |   Session |  ✗ | ASR, MT/ST                                        |      Apache-2.0 |
-| 28 | Bengali           | 2026 |  BN | ✓ | ✗ |     310h |  49m |   Session | 350m |     Event |  ✗ | ASR                                               |       CC-BY 4.0 |
-| 29 | YoutubeCommons    | 2024 |   6 | ✓ | ✗ | 440,000h |   NA |        NA |  60m |   Session | NA | ASR,                               Vision         |       CC-BY-4.0 |
+| 28 | MOSEL             | 2024 |  24 | ✓ | ✗ | 950,000h |   5m |   Segment | 120m |   Session |  ✗ | ASR, MT/ST                                        |      Apache-2.0 |
+| 29 | Bengali           | 2026 |  BN | ✓ | ✗ |     310h |  49m |   Session | 350m |     Event |  ✗ | ASR                                               |       CC-BY 4.0 |
+| 30 | YoutubeCommons    | 2024 |   6 | ✓ | ✗ | 440,000h |   NA |        NA |  60m |   Session | NA | ASR,                               Vision         |       CC-BY-4.0 |
 | — | — | — | — | — | — | — | — | — | — | — |— | — |
-| 30 | ECShortClips      | 2023 |   2 | ✗ | ✓ |       1h |   2m |   Segment |   6m |   Segment |  ✓ | ASR, MT/ST,                        Vision         |    CC-BY-NC-4.0 |
-| 31 | AudioMarathon     | 2026 |  EN | ✗ | ✓ |     392h |   4m |   Segment |   5m |   Segment |  ✓ | ASR,        QA/SQA,                        Others |    CC-BY-NC-4.0 |
-| 32 | MCIF              | 2025 |   4 | ✗ | ✓ |      10h |   6m |   Segment |   7m |   Segment |  ✓ | ASR, MT/ST, QA/SQA, SUM/SSUM, TTS, Vision         |       CC-BY-4.0 |
-| 33 | ACL6060           | 2023 |  10 | ✗ | ✓ |       2h |  12m | Discourse |  14m | Discourse |  ✓ | ASR, MT/ST                                        |       CC-BY-4.0 |
-| 34 | CORAAL            | 2021 |  EN | ✗ | ✓ |     161h |  36m |   Session |  82m |   Session |  ✓ | ASR                                               | CC-BY-NC-SA-4.0 |
-| 35 | Earnings-21       | 2021 |  EN | ✗ | ✓ |      39h |  54m |   Session |  94m |   Session |  ✓ | ASR                                               |   Research Only |
-| 36 | ICSI              | 2003 |  EN | ✗ | ✓ |      72h |  89m |   Session | 103m |   Session |  ✓ | ASR                                               |       CC-BY-4.0 |
-| 37 | BLAB              | 2026 |  EN | ✗ | ✓ |     833h |  51m |   Session | 120m |   Session |  ✓ | ASR,                                       Others |       CC-BY-4.0 |
-| 38 | EuroParlInterview | 2023 |  EN | ✗ | ✓ |       1h |   6m |   Segment |  15m | Discourse |  ✗ | ASR, MT/ST,                        Vision         |    CC-BY-NC-4.0 |
-| 39 | LSS               | 2025 |  EN | ✗ | ✓ |       1h |   5m |   Segment |  37m |   Session |  ✗ | ASR,                               Vision         |              NA |
-| 40 | Earnings-22       | 2022 |  EN | ✗ | ✓ |     119h |  57m |   Session | 123m |     Event |  ✗ | ASR                                               |   Research Only |
-| 41 | ChronosAudio      | 2026 |  EN | ✗ | ✓ |     237h |   5m |   Segment |   NA |        NA | NA | ASR, MT/ST, QA/SQA                                |              NA |
+| 31 | ECShortClips      | 2023 |   2 | ✗ | ✓ |       1h |   2m |   Segment |   6m |   Segment |  ✓ | ASR, MT/ST,                        Vision         |    CC-BY-NC-4.0 |
+| 32 | AudioMarathon     | 2026 |  EN | ✗ | ✓ |     392h |   4m |   Segment |   5m |   Segment |  ✓ | ASR,        QA/SQA,                        Others |    CC-BY-NC-4.0 |
+| 33 | MCIF              | 2025 |   4 | ✗ | ✓ |      10h |   6m |   Segment |   7m |   Segment |  ✓ | ASR, MT/ST, QA/SQA, SUM/SSUM, TTS, Vision         |       CC-BY-4.0 |
+| 34 | ACL6060           | 2023 |  10 | ✗ | ✓ |       2h |  12m | Discourse |  14m | Discourse |  ✓ | ASR, MT/ST                                        |       CC-BY-4.0 |
+| 35 | LAT-Bench         | 2026 |   2 | ✓ | ✓ |      40h |  30m | Discourse |  30m | Discourse |  ✓ |                                            Others |    CC-BY-NC-4.0 |
+| 36 | CORAAL            | 2021 |  EN | ✗ | ✓ |     161h |  36m |   Session |  82m |   Session |  ✓ | ASR                                               | CC-BY-NC-SA-4.0 |
+| 37 | Earnings-21       | 2021 |  EN | ✗ | ✓ |      39h |  54m |   Session |  94m |   Session |  ✓ | ASR                                               |   Research Only |
+| 38 | ICSI              | 2003 |  EN | ✗ | ✓ |      72h |  89m |   Session | 103m |   Session |  ✓ | ASR                                               |       CC-BY-4.0 |
+| 39 | BLAB              | 2026 |  EN | ✗ | ✓ |     833h |  51m |   Session | 120m |   Session |  ✓ | ASR,                                       Others |       CC-BY-4.0 |
+| 40 | EuroParlInterview | 2023 |  EN | ✗ | ✓ |       1h |   6m |   Segment |  15m | Discourse |  ✗ | ASR, MT/ST,                        Vision         |    CC-BY-NC-4.0 |
+| 41 | LSS               | 2025 |  EN | ✗ | ✓ |       1h |   5m |   Segment |  37m |   Session |  ✗ | ASR,                               Vision         |              NA |
+| 42 | Earnings-22       | 2022 |  EN | ✗ | ✓ |     119h |  57m |   Session | 123m |     Event |  ✗ | ASR                                               |   Research Only |
+| 43 | ChronosAudio      | 2026 |  EN | ✗ | ✓ |     237h |   5m |   Segment |   NA |        NA | NA | ASR, MT/ST, QA/SQA                                |              NA |
 
 
 # Duration-based Framework
@@ -100,35 +102,37 @@ Limited diversity remains a key issue in long-form evaluation, with broader cove
 |  9 | NUTSHELL          | 2025 |                 Züfle, Maike and others | NUTSHELL: A Dataset for Abstract Generation from Scientific Talks |
 | 10 | TED-LIUM-3        | 2018 |          Hernandez, François and others | TED-LIUM 3: Twice As Much Data and Corpus Repartition for Experiments on Speaker Adaptation |
 | 11 | AISHELL-4         | 2021 |                    Fu, Yihui and others | AISHELL-4: An Open Source Dataset for Speech Enhancement, Separation, Recognition and Speaker Diarization in Conference Scenario |
-| 12 | AMI               | 2006 |               Carletta, Jean and others | The AMI Meeting Corpus: A Pre-announcement |
-| 13 | MeetingBank       | 2023 |                  Hu, Yebowen and others | MeetingBank: A Benchmark Dataset for Meeting Summarization |
-| 14 | EuroParlST        | 2020 |       Iranzo-Sánchez, Javier and others | Europarl-ST: A Multilingual Corpus for Speech Translation of Parliamentary Debates |
-| 15 | mTEDx             | 2021 |           Salesky, Elizabeth and others | The Multilingual TEDx Corpus for Speech Recognition and Translation |
-| 16 | SLUE-TED          | 2023 |                  Shon, Suwon and others | SLUE Phase-2: A Benchmark Suite of Diverse Spoken Language Understanding Tasks |
-| 17 | VISTA             | 2025 |                  Liu, Dongqi and others | What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations |
-| 18 | YTSEG             | 2024 | Retkowski, Fabian and Waibel, Alexander | From Text Segmentation to Smart Chaptering: A Novel Benchmark for Structuring Video Transcriptions |
-| 19 | MMSUM             | 2023 |                  Qiu, Jielin and others | MMSum: A Dataset for Multimodal Summarization and Thumbnail Generation of Videos |
-| 20 | VT-SSUM           | 2021 |                 Lv, Tengchao and others | VT-SSum: A Benchmark Dataset for Video Transcript Segmentation and Summarization |
-| 21 | MLS               | 2020 |               Pratap, Vineel and others | MLS: A Large-Scale Multilingual Dataset for Speech Research |
-| 22 | YODAS             | 2024 |                  Li, Xinjian and others | YODAS: Youtube-Oriented Dataset for Audio and Speech |
-| 23 | Spotify Podcasts  | 2020 |                 Clifton, Ann and others | 100,000 Podcasts: A Spoken English Document Corpus |
-| 24 | StreamHover       | 2021 |                 Cho, Sangwoo and others | StreamHover: Livestream Transcript Summarization and Annotation |
-| 25 | Updated           | 2024 |        Fox, Jennifer Drexler and others | Updated Corpora and Benchmarks for Long-Form Speech Recognition |
-| 26 | LongSpeech        | 2026 |                    Yang, Fei and others | LongSpeech: A Scalable Benchmark for Transcription, Translation and Understanding in Long Speech |
+| 12 | LAT-Chronicle     | 2026 |               Mingchen, Shao and others | Listening with Time: Precise Temporal Awareness for Long-Form Audio Understanding |
+| 13 | AMI               | 2006 |               Carletta, Jean and others | The AMI Meeting Corpus: A Pre-announcement |
+| 14 | MeetingBank       | 2023 |                  Hu, Yebowen and others | MeetingBank: A Benchmark Dataset for Meeting Summarization |
+| 15 | EuroParlST        | 2020 |       Iranzo-Sánchez, Javier and others | Europarl-ST: A Multilingual Corpus for Speech Translation of Parliamentary Debates |
+| 16 | mTEDx             | 2021 |           Salesky, Elizabeth and others | The Multilingual TEDx Corpus for Speech Recognition and Translation |
+| 17 | SLUE-TED          | 2023 |                  Shon, Suwon and others | SLUE Phase-2: A Benchmark Suite of Diverse Spoken Language Understanding Tasks |
+| 18 | VISTA             | 2025 |                  Liu, Dongqi and others | What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations |
+| 19 | YTSEG             | 2024 | Retkowski, Fabian and Waibel, Alexander | From Text Segmentation to Smart Chaptering: A Novel Benchmark for Structuring Video Transcriptions |
+| 20 | MMSUM             | 2023 |                  Qiu, Jielin and others | MMSum: A Dataset for Multimodal Summarization and Thumbnail Generation of Videos |
+| 21 | VT-SSUM           | 2021 |                 Lv, Tengchao and others | VT-SSum: A Benchmark Dataset for Video Transcript Segmentation and Summarization |
+| 22 | MLS               | 2020 |               Pratap, Vineel and others | MLS: A Large-Scale Multilingual Dataset for Speech Research |
+| 23 | YODAS             | 2024 |                  Li, Xinjian and others | YODAS: Youtube-Oriented Dataset for Audio and Speech |
+| 24 | Spotify Podcasts  | 2020 |                 Clifton, Ann and others | 100,000 Podcasts: A Spoken English Document Corpus |
+| 25 | StreamHover       | 2021 |                 Cho, Sangwoo and others | StreamHover: Livestream Transcript Summarization and Annotation |
+| 26 | Updated           | 2024 |        Fox, Jennifer Drexler and others | Updated Corpora and Benchmarks for Long-Form Speech Recognition |
+| 27 | LongSpeech        | 2026 |                    Yang, Fei and others | LongSpeech: A Scalable Benchmark for Transcription, Translation and Understanding in Long Speech |
 | — | — | — | — | — |
-| 27 | MOSEL             | 2024 |                 Gaido, Marco and others | MOSEL: 950,000 Hours of Speech Data for Open-Source Speech Foundation Model Training on EU Languages |
-| 28 | Bengali           | 2026 |                       K M Intisar Uddin | Bengali Long-Form ASR Dataset |
-| 29 | YoutubeCommons    | 2024 |                                      NA | PleIAs |
+| 28 | MOSEL             | 2024 |                 Gaido, Marco and others | MOSEL: 950,000 Hours of Speech Data for Open-Source Speech Foundation Model Training on EU Languages |
+| 29 | Bengali           | 2026 |                       K M Intisar Uddin | Bengali Long-Form ASR Dataset |
+| 30 | YoutubeCommons    | 2024 |                                      NA | PleIAs |
 | — | — | — | — | — |
-| 30 | ECShortClips      | 2023 |                   Papi, Sara and others | Direct Speech Translation for Automatic Subtitling |
-| 31 | AudioMarathon     | 2026 |                    Peize, He and others | AudioMarathon: A Comprehensive Benchmark for Long-context Audio Understanding and Efficiency in Audio LLMS |
-| 32 | MCIF              | 2026 |                   Papi, Sara and others | MCIF: Multimodal Crosslingual Instruction-Following Benchmark from Scientific Talks |
-| 33 | ACL6060           | 2023 |           Salesky, Elizabeth and others | Evaluating Multilingual Speech Translation under Realistic Conditions with Resegmentation and Terminology |
-| 34 | CORAAL            | 2021 |              Gunter, Kaylynn and others | Contextualizing /s/ retraction: Sibilant variation and change in Washington D.C. African American Language |
-| 35 | Earnings-21       | 2021 |              Rio, Miguel Del and others | Earnings-21: A Practical Benchmark for ASR in the Wild |
-| 36 | ICSI              | 2003 |                    Janin, A. and others | The ICSI Meeting Corpus |
-| 37 | BLAB              | 2026 |            Ahia, Orevaoghene and others | BLAB: Brutally Long Audio Bench |
-| 38 | EuroParlInterview | 2023 |                   Papi, Sara and others | Direct Speech Translation for Automatic Subtitling |
-| 39 | LSS               | 2025 |                  Foley, Sean and others | A Long-Form Single-Speaker Real-Time MRI Speech Dataset and Benchmark |
-| 40 | Earnings-22       | 2022 |              Rio, Miguel Del and others | Earnings-22: A Practical Benchmark for Accents in the Wild |
-| 41 | ChronosAudio      | 2026 |                  Luo, Kaiwen and others | ChronosAudio: A Comprehensive Long-Audio Benchmark for Evaluating Audio-Large Language Models |
+| 31 | ECShortClips      | 2023 |                   Papi, Sara and others | Direct Speech Translation for Automatic Subtitling |
+| 32 | AudioMarathon     | 2026 |                    Peize, He and others | AudioMarathon: A Comprehensive Benchmark for Long-context Audio Understanding and Efficiency in Audio LLMS |
+| 33 | MCIF              | 2026 |                   Papi, Sara and others | MCIF: Multimodal Crosslingual Instruction-Following Benchmark from Scientific Talks |
+| 34 | ACL6060           | 2023 |           Salesky, Elizabeth and others | Evaluating Multilingual Speech Translation under Realistic Conditions with Resegmentation and Terminology |
+| 35 | LAT-Bench         | 2026 |               Mingchen, Shao and others | Listening with Time: Precise Temporal Awareness for Long-Form Audio Understanding |
+| 36 | CORAAL            | 2021 |              Gunter, Kaylynn and others | Contextualizing /s/ retraction: Sibilant variation and change in Washington D.C. African American Language |
+| 37 | Earnings-21       | 2021 |              Rio, Miguel Del and others | Earnings-21: A Practical Benchmark for ASR in the Wild |
+| 38 | ICSI              | 2003 |                    Janin, A. and others | The ICSI Meeting Corpus |
+| 39 | BLAB              | 2026 |            Ahia, Orevaoghene and others | BLAB: Brutally Long Audio Bench |
+| 40 | EuroParlInterview | 2023 |                   Papi, Sara and others | Direct Speech Translation for Automatic Subtitling |
+| 41 | LSS               | 2025 |                  Foley, Sean and others | A Long-Form Single-Speaker Real-Time MRI Speech Dataset and Benchmark |
+| 42 | Earnings-22       | 2022 |              Rio, Miguel Del and others | Earnings-22: A Practical Benchmark for Accents in the Wild |
+| 43 | ChronosAudio      | 2026 |                  Luo, Kaiwen and others | ChronosAudio: A Comprehensive Long-Audio Benchmark for Evaluating Audio-Large Language Models |
