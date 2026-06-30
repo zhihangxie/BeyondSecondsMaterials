@@ -10,7 +10,7 @@
 |  6 | Audio Flamingo-3     | 2025 | ASR,        QA/SQA,           TTS,         Others |  EN |      WhisperV3 |   50 Hz |    Pooling | Cross-Attention |   25 Hz |      Qwen2.5-7B |       7.8B | 10m |      10m |
 |  7 | VLAT-Qwen2-Audio     | 2025 |             QA/SQA, SUM/SSUM, TTS, Vision, Others |  EN |      WhisperV3 |   50 Hz |    Pooling |      Prepending |   25 Hz |         Qwen-7B |       7.8B |  2m |      10m |
 |  8 | KIT + CMU            | 2026 | ASR, MT/ST, QA/SQA, SUM/SSUM,              Others |   4 |      WhisperV3 |   50 Hz |    Pooling |      Prepending |   50 Hz |      Qwen2.5-7B |       7.8B | 15m |      15m |
-|  9 | FBK                  | 2026 | ASR, MT/ST, QA/SQA, SUM/SSUM,              Others |   4 |    SeamlessM4T | 6.25 Hz |        MLP |      Prepending | 6.25 Hz |        Qwen3-4B |       4.7B | 25m |      15m |
+|  9 | FBK                  | 2026 | ASR, MT/ST, QA/SQA, SUM/SSUM,              Others |   4 |    SeamlessM4T |   50 Hz |    Pooling |      Prepending | 6.25 Hz |        Qwen3-4B |       4.7B | 25m |      15m |
 | 10 | Qwen2.5-Omni         | 2025 | ASR, MT/ST,                   TTS, Vision         |  8+ |      WhisperV3 |   50 Hz |    Pooling |      Prepending |   25 Hz |      Qwen2.5-7B |       7.8B | 20m |      20m |
 | 11 | KIT                  | 2025 | ASR, MT/ST, QA/SQA, SUM/SSUM                      |   4 |    SeamlessM4T |   50 Hz |  WQ-Former |      Prepending |   50 Hz |     Llama3.1-8B |         9B | 23m |      27m |
 | 12 | LAT-Audio            | 2026 |                                            Others |   2 |    Transformer | 12.5 Hz |    Pooling |      Prepending | 12.5 Hz |       Qwen3-30B |        30B | 30m |      30m |
